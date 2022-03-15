@@ -13,13 +13,13 @@ As for this main() file, it simply creates the GUI.*/
 
 int main() {
     //Changable Parameters:
-    int MODEL_SIZE = 200;
+    int MODEL_SIZE = 1000;
     int SQUARE_SIZE = 20;
-    int TIGER_NUM = 0;
-    int HUNTER_NUM = 0;
-    int LUMBER_NUM = 0;
-    int TREE_NUM = 0;
-    int DEER_NUM =5;
+    int TIGER_NUM = 10;
+    int HUNTER_NUM = 25;
+    int LUMBER_NUM = 25;
+    int TREE_NUM = 25;
+    int DEER_NUM =25;
    
     new Gui(MODEL_SIZE, SQUARE_SIZE, TIGER_NUM, HUNTER_NUM, LUMBER_NUM, TREE_NUM, DEER_NUM);
     return 0;
